@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  padding: 85px 0 10px 0;
+}
+.card {
+  display: block;
+  margin: 0 auto;
+
+  width: 500px;
+  padding: 0 0 15px 0;
+  border: 1px solid rgb(118, 118, 118);
+}
+.actual-weather-icon {
+  display: block;
+  margin: 0 auto;
+}
+.list-group {
+  display: block;
+  margin: 0 auto;
+  border-style: none;
+  font-family: "DM Sans", sans-serif;
+  padding: 10px;
+}
+.city {
+  text-align: left;
+  font-size: 25px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px 0px 0px 45px;
+  margin: 0;
+  max-width: 300px;
+}
+.day {
+  text-align: left;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  padding: 0px 0px 5px 45px;
+  font-style: italic;
+  max-width: 200px;
+}
+.actualTemperature {
+  text-align: left;
+  font-size: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px 0px 0px 45px;
+  margin: 0;
+  max-width: 200px;
+}
+.maxNightTemp {
+  text-align: left;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  padding: 0px 0px 8px 46px;
+  font-style: italic;
+  max-width: 200px;
+}
+.wind {
+  text-align: left;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  padding: 0px 0px 20px 46px;
+  font-style: italic;
+  max-width: 200px;
+}
+.currentTime {
+  text-align: center;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  max-width: 200px;
+  padding: 22px 0 0 0px;
+  margin: 0;
+}
+.weatherIcon {
+  text-align: center;
+  font-size: 70px;
+  font-family: "DM Sans", sans-serif;
+  padding: 10px 0px 0px 0px;
+  margin: 0;
+  max-width: 200px;
+}
+.weatherDescription {
+  text-align: center;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  padding: 10px 0px 0 0px;
+  margin: 0;
+  max-width: 200px;
+}
+.move {
+  padding: 0 0 0 35px;
+}
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: rgb (118, 118, 118);
+}
+.locationBtn {
+  background-color: rgb(239, 239, 239);
+  color: rgb(121, 119, 119);
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2.5px;
+  padding: 2px 6px 2px 6px;
+  margin: 0 0 0 20px;
+}
+.enterCityBtn {
+  border: none;
+}
